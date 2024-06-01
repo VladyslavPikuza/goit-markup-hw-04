@@ -178,7 +178,9 @@ color: #404bbf;
         border-radius: 4px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         min-width: 169px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: background-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -357,7 +359,7 @@ display: flex;
 }
 
 .icon {
-    fill: #404bbf;
+    fill: #f4f4fd;
 }
 
 .list {
@@ -428,6 +430,7 @@ display: flex;
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
         position: relative;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
        
 }
@@ -435,7 +438,6 @@ display: flex;
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover .portfolio-text
