@@ -261,13 +261,12 @@ position: absolute;
         margin: 0;
 }
 
-.benefits-img {
+.benefits-img-icon {
     display: flex;
         justify-content: center;
         align-items: center;
         background-color: #f4f4fd;
-        width: 100%;
-        height: 100%;
+       
 
 }
 
