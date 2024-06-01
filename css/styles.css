@@ -167,7 +167,7 @@ color: #404bbf;
         margin-bottom: 48px;
 }
 
-.button {
+.hero-button {
        font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -187,8 +187,8 @@ color: #404bbf;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.hero-button:hover,
+.hero-button:focus {
 background-color: #404bbf;
 
 }
