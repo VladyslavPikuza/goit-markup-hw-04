@@ -561,7 +561,7 @@ width: 264px;
 .footer-social {
     display: flex;
         flex-direction: column;
-        margin-left: 540px;
+        margin-left: 120px;
         margin-right: auto;
 }
 
