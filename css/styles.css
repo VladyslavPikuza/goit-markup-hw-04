@@ -499,8 +499,6 @@ overflow: hidden;
 
 .footer-block {
     display: flex;
-        margin-left: 156px;
-        margin-right: 692px;
         align-items: baseline;
 }
 
@@ -566,8 +564,6 @@ width: 264px;
 .footer-social {
     display: flex;
         flex-direction: column;
-        margin-left: 120px;
-        margin-right: auto;
 }
 
 .footer-social-item {
